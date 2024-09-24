@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Transactions;
 
 class Program
 {
@@ -6,14 +7,14 @@ class Program
     static long Factorial(long y)
     {
         if (y == 0) return 1;
-        return y * Factorial(y - 1);
+        return Math.Abs(y * Factorial(y - 1));
     }
 
     
     static double Function(double x)
     {
         double a = Math.Sqrt(Math.Log(4 / 3)) + (x + 9 / 7) - Math.Exp(1.3 * x - 0.7);
-        return a;
+        return Math.Abs(a);
     }
 
    
@@ -41,14 +42,29 @@ class Program
     }
 
    
-    static double Cos(double x, int n, int prec)
+    public static void Cos(double x)
     {
-        var t = Math.Pow(-1, n) * Math.Pow(x, 2 * n) / Factorial((uint)(2 * n));
-        if (Math.Abs(t) < prec)
+
+        Console.WriteLine("Разложение в ряд Тейлора:");
+       
+        
+        double vrem = 0;
+        double sum = 0;
+        int n = 0;
+        double predSum = 0;
+        Console.WriteLine("Введите разницу(0,1; 0,01 ... )");
+        double razn = double.Parse(Console.ReadLine());
+
+        do
         {
-            return t;
+            double res = Math.Pow(-1, n) * Math.Pow(x, 2 * n) / Factorial((uint)(2 * n));
+            vrem = res / Factorial(n);
+            predSum = sum;
+            sum += vrem;
+            n++;
+            Console.WriteLine($"Ряд Тейлора: {n} : {Math.Abs(sum)} ");
         }
-        return t + Cos(x, n + 1, prec);
+        while ((Math.Abs(sum - predSum) > razn));
     }
 
     static void Main()
@@ -83,14 +99,9 @@ class Program
                 Console.WriteLine(Fibonachi(n));
                 break;
             case 4:
-                Console.WriteLine("Введите x для вычисления косинуса");
-                double x3 = double.Parse(Console.ReadLine());
-                Console.WriteLine("Введите точность вычисления");
-                int prec = int.Parse(Console.ReadLine());
-                Console.WriteLine("Введите число рядов");
-                int c = int.Parse(Console.ReadLine());
-                double result = Cos(x3, c, prec);
-                Console.WriteLine(Math.Round(result, prec));
+                    Console.WriteLine("Введите значение x.\n X= ");
+                    double x4 = double.Parse(Console.ReadLine());
+                    Cos(x4);
                 break;
             default:
                 Console.WriteLine("Неверный выбор!");

@@ -1,0 +1,15 @@
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\bin\Debug\net8.0\tehnologiiLAB1.exe
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\bin\Debug\net8.0\tehnologiiLAB1.deps.json
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\bin\Debug\net8.0\tehnologiiLAB1.runtimeconfig.json
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\bin\Debug\net8.0\tehnologiiLAB1.dll
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\bin\Debug\net8.0\tehnologiiLAB1.pdb
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\tehnologiiLAB1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\tehnologiiLAB1.AssemblyInfoInputs.cache
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\tehnologiiLAB1.AssemblyInfo.cs
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\tehnologiiLAB1.csproj.CoreCompileInputs.cache
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\tehnologiiLAB1.dll
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\refint\tehnologiiLAB1.dll
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\tehnologiiLAB1.pdb
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\tehnologiiLAB1.genruntimeconfig.cache
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\ref\tehnologiiLAB1.dll
+C:\Users\volod\OneDrive\Рабочий стол\University\5sem\TechnologiiProgram\tehnologiiLAB1\tehnologiiLAB1\obj\Debug\net8.0\tehnologiiLAB1.sourcelink.json
